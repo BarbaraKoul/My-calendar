@@ -6,3 +6,4 @@ My Calendar is an interactive calendar with the following features:
 -Minimal UI using CSS and creating logo with canvas
 
 My calendar is made with HTML5, CSS(grid, flexbox) and Javascript
+This is my first project :)
