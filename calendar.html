@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        MyCalendar 
+    </title>
+    <head>
+        <link rel="stylesheet" href="CSS/calendar.css">
+    </head>
+    <div class="logo"><img src="calendarImages/My calendar logo.png" class="logoImage"></div>
+    <div id="noteModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeNoteModal()">&times;</span>
+            <h3>Note for:<span id="modalDate"></span></h3>
+            <textarea id="noteText"></textarea>
+            <button onclick="saveNote()" class="saveButton">Save</button>
+        </div>
+    </div>
+    <body>
+        <div class="month">
+            <div class="change"><img src="calendarImages/less-than .jpg" class="arrows" onclick="ChangeMonth2()"></div>
+            <div class="changemonth"></div>
+            <div class="change"><img src="calendarImages/greater-than.jpg" class="arrows" onclick="ChangeMonth1()"></div>
+        </div>
+        <div class="main_square">
+            <div class="days">Monday</div>
+            <div class="days">Tuesday</div>
+            <div class="days">Wednesday</div>
+            <div class="days">Thursday</div>
+            <div class="days">Friday</div>
+            <div class="days">Saturday</div>
+            <div class="days">Sunday</div>
+            <div>01</div>
+            <div>02</div>
+            <div>03</div>
+            <div>04</div>
+            <div>05</div>
+            <div>06</div>
+            <div>07</div>
+            <div>08</div>
+            <div>09</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+            <div>17</div>
+            <div>18</div>
+            <div>19</div>
+            <div>20</div>
+            <div>21</div>
+            <div>22</div>
+            <div>23</div>
+            <div>24</div>
+            <div>25</div>
+            <div>26</div>
+            <div>27</div>
+            <div>28</div>
+            <div>29</div>
+            <div>30</div>
+        </div>
+        <button class="clear" onclick="deleteNote()">Clear</button>
+    </body>
+    <script src="javascript/calendar.js"></script>
+</html>
